@@ -7,7 +7,7 @@ function ColorSchemesExample() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Shop Management </Navbar.Brand>
+          <Navbar.Brand to='/'>Shop Management </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Customers</Nav.Link>
             <Nav.Link href="#features">Products</Nav.Link>
