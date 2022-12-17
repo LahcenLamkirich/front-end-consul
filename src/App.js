@@ -13,10 +13,10 @@ class App extends React.Component {
       <>
       <Router>
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/customers" element={<Customers/>} />
-          <Route path="/products" element={<Products/>} />
-          <Route path="/orders" element={<Orders />} />
+          <Route exact path="/" element={<Home/>} />
+          <Route exact path="/customers" element={<Customers/>} />
+          <Route exact path="/products" element={<Products/>} />
+          <Route exact path="/orders" element={<Orders />} />
         </Routes>
     </Router>
       </>
